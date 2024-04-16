@@ -74,7 +74,7 @@ nav ul li a:hover{
 }
 
 #home{
-    background-image: url(ryan-lum-1ak3Z7ZmtQA-unsplash.jpg);
+    background-image: url(d795fc16956633.5d39eb184b703.jpg);
     background-size: cover;
     background-position: center center;
 }
@@ -86,8 +86,15 @@ nav ul li a:hover{
     margin: 30px 25px;
     border: 15px double #fff;
 }
+.text-content h1 {
+    font-size: 100px;
+}
+#home p{ 
+    color: aquamarine;
+    font-size: 30px;
+}
 
-@media (max-width: 400px) {
+@media (max-width: 310px) {
     nav{
         background: #fff;
         height: 86px;
