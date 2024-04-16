@@ -48,6 +48,7 @@ nav ul li a:hover{
     place-items: center;
     min-height: 100vh;
     text-align: center;
+    min-width: 650px;
 }
 
 .section:nth-child(2){
@@ -63,10 +64,22 @@ nav ul li a:hover{
 .text-content h2 {
     text-transform: uppercase;
     font-size: 50px;
+    color: #005b6d;
+}
+.text-content h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #005b6d;
+}
+.text-content h4 {
+    text-transform: uppercase;
+    font-size:20px;
+    color:#005b6d;
 }
 
 .text-content p{
     line-height: 2;
+    font-size: larger;
 }
 
 .text-content{
@@ -80,7 +93,7 @@ nav ul li a:hover{
 }
 
 .img-area{
-    height: 220px;
+    height: 195px;
     border-radius: 50%;
     overflow: hidden;
     margin: 30px 25px;
@@ -88,10 +101,18 @@ nav ul li a:hover{
 }
 .text-content h1 {
     font-size: 100px;
+    background: rgba(0, 0, 0, 0.4); /* Black background with 0.5 opacity */
 }
+
+
 #home p{ 
-    color: aquamarine;
+    color: rgb(255, 255, 255);
     font-size: 30px;
+    background: rgba(0, 0, 0, 0.4); /* Black background with 0.5 opacity */
+}
+
+#skills ul{
+    font-size: larger;
 }
 
 @media (max-width: 310px) {
@@ -118,6 +139,9 @@ nav ul li a:hover{
         display: none;
     }
     .text-content h2{
-        font-size: 15px;
+        font-size: 100px;
+    }
+    .text-content p {
+        font-size: 400px;
     }
 }
