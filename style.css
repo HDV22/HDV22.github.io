@@ -1,5 +1,6 @@
-.selector-for-some-widget {
-    box-sizing: content-box;
+
+
+  html {
     scroll-behavior: smooth;
   }
   
@@ -55,10 +56,14 @@ nav ul li a:hover{
     background-color: #fff;
 }
 .section:nth-child(3){
-    background-color: #fff;
+    background-color:  aliceblue;
 }
 .section:nth-child(4){
     background-color: #fff;
+}
+
+.section:nth-child(5){
+    background-color: aliceblue;
 }
 
 .text-content h2 {
